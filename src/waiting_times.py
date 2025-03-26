@@ -99,3 +99,5 @@ if __name__ == "__main__":
     # 任务二：1000000次抛掷
     print("\n")
     waiting_times_1m, stats_1m = run_experiment(1000000, "Task 2: 1,000,000 Coin Flips")
+  
+ 
