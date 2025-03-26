@@ -73,6 +73,9 @@ def compare_simulation_theory(n_experiments=10000, lambda_param=8):
 if __name__ == "__main__":
     # 设置随机种子
     np.random.seed(42)
+    # 指定保存路径
+    save_path = "C:/Users/31025/OneDrive/桌面/caoyunqing"
+
     
     # 1. 绘制理论分布
     plot_poisson_pmf()
