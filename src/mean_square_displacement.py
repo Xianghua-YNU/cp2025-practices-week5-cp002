@@ -92,5 +92,6 @@ if __name__ == "__main__":
     print(f"与理论值k=2的相对误差: {abs(k-2)/2*100:.2f}%")
     
     plt.show()
-   
     
+  
+
